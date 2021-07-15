@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Musicon</title>
-    <link href="public/style.css" rel="stylesheet" />
-    <script src="handlebars.min.js"></script>
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="js/handlebars.min.js"></script>
     <script id="templateHB" type="text/x-handlebars-template">
       {{#each instruments}}
       <article class="instrument">
@@ -42,14 +43,13 @@
     </header>
 
     <article id="showcase">
-      <section id="information" class="container">
-          </section>
-        </article>
+      <section id="information" class="container"></section>
+    </article>
 
     <footer>
       <p>&copy; Musicon 2018</p>
     </footer>
 
-    <script src="public/main.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

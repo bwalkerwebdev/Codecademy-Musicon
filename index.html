@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Musicon</title>
-    <link href="public/style.css" rel="stylesheet" />
-    <script src="handlebars.min.js"></script>
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="js/handlebars.min.js"></script>
     <script id="templateHB" type="text/x-handlebars-template">
       <h1>
         {{title}}
       </h1>
+      <div>
+        <img
+          id="home-image"
+          src="images/ricardo-abreu-5AlEtKAqTls-unsplash.jpg"
+        />
+      </div>
       <p>
         {{body}}
       </p>
@@ -30,19 +37,16 @@
             <li><a href="contact.html">Contact</a></li>
           </ul>
         </nav>
-
       </section>
     </header>
 
     <article id="introduction">
-      <section id="information" class="container">
- 
-      </section>
+      <section id="information" class="container"></section>
     </article>
 
     <footer>
       <p>&copy; Musicon</p>
     </footer>
-    <script src="public/main.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
